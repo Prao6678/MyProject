@@ -1,10 +1,4 @@
-/**
-* @description       : SalesOrder Completed
-* @author            : Rik Van
-* @group             : SFSC Capgemini
-* @last modified on  : 03-09-2021
-* @last modified by  : Vivek
-**/
+
 public class SalesOrderCompletedEventHandler {
     public void doAfterInsert(List<SalesOrderCompleted__e> newList){
         processcompletedOrder(newList);
